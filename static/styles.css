@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Define a altura do corpo para 100% da altura da janela de visualização */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("img/background.png"); /* Substitua 'caminho/da/sua/imagem.jpg' pelo caminho real da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+  background-position: center; /* Centraliza a imagem no plano de fundo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+  
+
+h1{
+    color: white;
+    font-size: 90px;
+}
+
+.sim,
+.nao {
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.sim {
+    background-color: #4caf50; /* Verde */
+    color: #fff; /* Texto branco */
+    margin-right: 20px; /* Adiciona 20px de margem à direita de cada botão, criando espaço entre eles */
+}
+
+.nao {
+    background-color: #ff5252; /* Vermelho */
+    color: #fff; /* Texto branco */
+}
+
+.emoji{
+    width: 150px;
+    height: 150px;
+}
